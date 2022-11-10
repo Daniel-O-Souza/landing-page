@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 10vh;
+    background-color: rgba(184, 183, 183, 0.5);
+    /* position:fixed;
+    width: 100vw; */
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(./Assets/f4bank.png);
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+footer {
+    height: 10vh;
+    color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+    background-image: url(./Assets/f4bank.png);
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+#sobre {
+    color: white;
+    min-height: 80vh;
+    /* padding-top: 10vh; */
+    background-image: url(./Assets/real-digital-acordo-certo-1050x480.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: larger;
+    padding-top: 30px;
+    padding-right: 75vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#apresentacao {
+    padding-top: 90px;
+}
+
+#produtos {
+    min-height: 80vh;
+    background-color: rgb(254, 146, 70);
+    /* background-image: url(./Assets/f4bank.png);
+    background-repeat: repeat;
+    background-position: center; */
+    color: white;
+    font-family: sans-serif;
+    font-size: larger;
+    padding-top: 30px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+#clientes {
+
+    min-height: 100vh;
+    background-image: url(./Assets/images\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(60, 65, 63);
+    color: white;
+    font-family: sans-serif;
+    font-size: larger;
+    padding-top: 30px;
+
+}
+
+.client-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    /* position: absolute;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0); */
+}
+
+img {
+    width: 50px;
+    margin: 10px;
+}
+
+.card {
+    width: 320px;
+    height: 220px;
+    background-color: rgb(15, 15, 14);
+    margin: 20px;
+    text-align: center;
+    padding-top: 85px;
+
+}
+
+#card1 {
+    background-image: url(./Assets/images.jpg);
+    background-size: cover;
+}
+
+#card2 {
+    background-image: url(./Assets/cartoes-credito-1300x650.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#card3 {
+    background-image: url(./Assets/5371567-empresario-mao-apontando-para-sucesso-no-crescimento-grafico-metaverso-tecnologia-financeiro-grafico-de-negocios-grafico-financeiro-tecnologia-investimento-em-mercado-de-acoes-analise-de-.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#card4 {
+    background-image: url(./Assets/transferir.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#card5 {
+    background-image: url(./Assets/aaaa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#card6 {
+    background-image: url(./Assets/images.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#card7 {
+    background-image: url(./Assets/images\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+}
+
+#card8 {
+    background-image: url(./Assets/pngtree-professional-unique-real-estate-logo-png-image_4896372.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#card9 {
+    background-image: url(./Assets/images\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#card10 {
+    background-image: url(./Assets/2638618-j-gold-golden-alphabet-letter-icon-logo-vintage-design-concept-for-company-and-business-corporate-identity-with-black-background-and-retro-style-vetor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#card11 {
+    background-image: url(./Assets/images\ \(2\).png);
+    background-size: cover;
+    background-position: center;
+}
+
+#card12 {
+    background-image: url(./Assets/flat\,750x1000\,075\,f.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#card13 {
+    background-image: url(./Assets/ddxwlmk-a219342f-83fc-4e77-8552-0b3d34e32b87.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#card14 {
+    background-image: url(./Assets/e93d8ef7f2f70cb2a518b0616a0c7ea0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#card15 {
+    background-image: url(./Assets/images\ \(3\).png);
+    background-size: cover;
+    background-position: center;
+}
+
+#card16 {
+    background-image: url(./Assets/images\ \(4\).png);
+    background-size: cover;
+    background-position: center;
+}
+
+.client {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.logo {
+    height: 10vh;
+    width: 20vw;
+}
+
+#nav {
+    margin: 30px;
+    padding: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: larger;
+    color: white;
+}
